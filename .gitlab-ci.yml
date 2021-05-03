@@ -4,7 +4,7 @@ stages:
   - e2e
 
 end-to-end testing:
-  stag: e2e
+  stage: e2e
   script:
     - npm install
     - npm test
